@@ -16,6 +16,7 @@ import {
 } from "@/utils/vocalMix";
 import { submitForm, handleUrlValidation } from "@/utils/forms";
 import { ConfirmationDialog } from "@/components/ConfirmationDialog";
+import { ASSETS } from "@/utils/assets";
 
 /**
  * ボーカルミックスサービスのメインコンポーネント
@@ -282,7 +283,7 @@ export default function VocalMixForm() {
                 ].map((feature, index) => (
                   <li key={index} className="flex items-center gap-3">
                     <Image
-                      src="/images/music/07_checkmark.svg"
+                      src={ASSETS.MUSIC.CHECKMARK}
                       alt="selected"
                       width={20}
                       height={20}

@@ -4,7 +4,7 @@
         "title": "サンプル企業コーポレートサイト",
         "client": "サンプル株式会社 様",
         "description": "モダンなデザインと使いやすいUI/UXを重視した企業サイト。会社情報、サービス紹介、お問い合わせフォームを統合したビジネスサイト。",
-        "imageUrl": "/images/web-portfolio/sample-corporate.png",
+        "imageUrl": "/Portfolio-Site/images/web-portfolio/momijitowa.com.png",
         "siteUrl": "#",
         "category": "コーポレートサイト",
         "technologies": [
@@ -27,7 +27,7 @@
         "title": "クリエイターポートフォリオサイト",
         "client": "ポートフォリオサンプル",
         "description": "クリエイター向けのポートフォリオサイト。作品紹介、スキル表示、お問い合わせ機能を統合したパーソナルサイト。",
-        "imageUrl": "/images/web-portfolio/sample-portfolio.png",
+        "imageUrl": "/Portfolio-Site/images/web-portfolio/my-portfolio.png",
         "siteUrl": "#",
         "category": "ポートフォリオ",
         "technologies": [
@@ -50,7 +50,7 @@
         "title": "ECサイト構築プロジェクト",
         "client": "サンプルショップ 様",
         "description": "オンラインショップの構築。商品管理、決済システム、顧客管理機能を持つ本格的なECサイト。",
-        "imageUrl": "/images/web-portfolio/sample-ecommerce.png",
+        "imageUrl": "/Portfolio-Site/images/web-portfolio/my-portfolio.png",
         "siteUrl": "#",
         "category": "ECサイト",
         "technologies": [

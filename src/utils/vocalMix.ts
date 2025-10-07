@@ -1,4 +1,5 @@
 import { PricingOptions, VocalMixFormValues } from "./types";
+import { ASSETS } from "./assets";
 
 // ボーカルミックスサービス関連の定数とロジック
 
@@ -7,7 +8,7 @@ export const SERVICE_STEPS = [
         id: 1,
         title: "ボーカルデータの録音",
         description: "まずは、ボーカル音源を録音してください。",
-        icon: "/images/music/01_file.svg"
+        icon: ASSETS.MUSIC.FILE
     },
     {
         id: 2,
@@ -16,31 +17,31 @@ export const SERVICE_STEPS = [
             "お問い合わせフォームまたはTwitterのDMにてご依頼内容をお送りください。",
             "内容を確認後、料金と納期をお見積もりいたします。"
         ],
-        icon: "/images/music/02_memo.svg"
+        icon: ASSETS.MUSIC.MEMO
     },
     {
         id: 3,
         title: "音源データのご提出",
         description: "ボーカル音源とカラオケ音源をご提出ください。",
-        icon: "/images/music/03_upload.svg"
+        icon: ASSETS.MUSIC.UPLOAD
     },
     {
         id: 4,
         title: "ミックス・マスタリング作業",
         description: "いただいた音源を元に、ミックスとマスタリング作業を開始します。",
-        icon: "/images/music/04_edit.svg"
+        icon: ASSETS.MUSIC.EDIT
     },
     {
         id: 5,
         title: "ご確認・修正",
         description: "完成した音源をお送りしますので、ご確認ください。修正は2回まで無料で対応いたします。",
-        icon: "/images/music/05_check.svg"
+        icon: ASSETS.MUSIC.CHECK
     },
     {
         id: 6,
         title: "納品",
         description: "最終確認後、完成した音源を納品いたします。",
-        icon: "/images/music/06_delivery.svg"
+        icon: ASSETS.MUSIC.DELIVERY
     }
 ];
 
