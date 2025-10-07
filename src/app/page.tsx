@@ -71,6 +71,7 @@ export default function Home() {
                   className="inline-block bg-blue-500 font-medium px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg text-xs sm:text-sm md:text-base hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
                   href="/services/vocal-mix"
                   style={{ color: Constant.SubColor }}
+                  prefetch={false}
                 >
                   詳しく見る
                 </Link>

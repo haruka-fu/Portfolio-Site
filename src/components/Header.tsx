@@ -61,6 +61,7 @@ export default function Header() {
             <Link
               href="/"
               className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 cursor-pointer"
+              prefetch={false}
             >
               <Image
                 src={ASSETS.LOGO_SVG}
@@ -110,6 +111,7 @@ export default function Header() {
                 <Link
                   href="/services/vocal-mix"
                   className="block px-3 lg:px-4 py-2 lg:py-3 text-gray-700 hover:bg-gray-50 transition-colors"
+                  prefetch={false}
                 >
                   <div className="font-medium text-sm lg:text-base">
                     ボーカルミックスサービス
@@ -121,6 +123,7 @@ export default function Header() {
                 <Link
                   href="/services/web-create"
                   className="block px-3 lg:px-4 py-2 lg:py-3 text-gray-700 hover:bg-gray-50 transition-colors"
+                  prefetch={false}
                 >
                   <div className="font-medium text-sm lg:text-base">
                     Web制作サービス
@@ -168,6 +171,7 @@ export default function Header() {
                 <Link
                   href="/portfolio/vocal-mix"
                   className="block px-3 lg:px-4 py-2 lg:py-3 text-gray-700 hover:bg-gray-50 transition-colors"
+                  prefetch={false}
                 >
                   <div className="font-medium text-sm lg:text-base">
                     ボーカルミックス実績
@@ -179,6 +183,7 @@ export default function Header() {
                 <Link
                   href="/portfolio/web-create"
                   className="block px-3 lg:px-4 py-2 lg:py-3 text-gray-700 hover:bg-gray-50 transition-colors"
+                  prefetch={false}
                 >
                   <div className="font-medium text-sm lg:text-base">
                     Web制作実績
@@ -295,6 +300,7 @@ export default function Header() {
                 href="/services/vocal-mix"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors rounded-md text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
+                prefetch={false}
               >
                 ボーカルミックス
               </Link>
@@ -302,6 +308,7 @@ export default function Header() {
                 href="/services/web-create"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors rounded-md text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
+                prefetch={false}
               >
                 Web制作
               </Link>
@@ -316,6 +323,7 @@ export default function Header() {
                 href="/portfolio/vocal-mix"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors rounded-md text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
+                prefetch={false}
               >
                 ボーカルミックス実績
               </Link>
@@ -323,6 +331,7 @@ export default function Header() {
                 href="/portfolio/web-create"
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors rounded-md text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
+                prefetch={false}
               >
                 Web制作実績
               </Link>

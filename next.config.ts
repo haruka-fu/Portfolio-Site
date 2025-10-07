@@ -20,10 +20,19 @@ const nextConfig: NextConfig = {
     typescript: {
         ignoreBuildErrors: false,
     },
+    // 静的エクスポート時の設定
+    experimental: {
+        // 静的エクスポート時のランタイム最適化
+        optimizePackageImports: ['react', 'react-dom'],
+    },
+    // プリフェッチとキャッシュ設定
+    compiler: {
+        removeConsole: isProd,
+    },
     // ベースパスの設定（本番環境のみ）
     ...(isProd && {
         basePath: '/Portfolio-Site',
-        assetPrefix: '/Profile-Site/',
+        assetPrefix: '/Portfolio-Site/',
     }),
 };
 
