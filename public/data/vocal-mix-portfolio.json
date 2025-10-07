@@ -1,0 +1,104 @@
+{
+    "portfolioItems": [
+        {
+            "id": "sample-project-001",
+            "title": "春風のメロディー",
+            "client": "サンプル アーティストA",
+            "description": "ポップス系楽曲のボーカルミックスを担当いたしました。明るくエネルギッシュな楽曲に仕上がりました。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "ポップス",
+            "platform": "youtube",
+            "createdDate": "2025年09月"
+        },
+        {
+            "id": "sample-project-002",
+            "title": "夜空の向こう側",
+            "client": "サンプル アーティストB",
+            "description": "バラード系楽曲のボーカルミックスを担当いたしました。感情豊かな表現を重視した仕上がりです。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "バラード",
+            "platform": "youtube",
+            "createdDate": "2025年08月"
+        },
+        {
+            "id": "sample-project-003",
+            "title": "青春Days",
+            "client": "サンプル アーティストC",
+            "description": "ロック系楽曲のボーカルミックスを担当いたしました。力強いボーカルが印象的な楽曲です。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "ロック",
+            "platform": "youtube",
+            "createdDate": "2025年07月"
+        },
+        {
+            "id": "sample-project-004",
+            "title": "雨上がりの虹",
+            "client": "サンプル アーティストD",
+            "description": "アニソン風楽曲のボーカルミックスを担当いたしました。キャッチーなメロディーが特徴的です。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "アニメソング",
+            "platform": "youtube",
+            "createdDate": "2025年06月"
+        },
+        {
+            "id": "sample-project-005",
+            "title": "星降る夜に",
+            "client": "サンプル アーティストE",
+            "description": "R&B系楽曲のボーカルミックスを担当いたしました。大人っぽく洗練された仕上がりです。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "R&B",
+            "platform": "youtube",
+            "createdDate": "2025年05月"
+        },
+        {
+            "id": "sample-project-006",
+            "title": "風のうた",
+            "client": "サンプル アーティストF",
+            "description": "フォーク系楽曲のボーカルミックスを担当いたしました。温かみのあるアコースティックサウンドです。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "フォーク",
+            "platform": "youtube",
+            "createdDate": "2025年04月"
+        },
+        {
+            "id": "sample-project-007",
+            "title": "未来への扉",
+            "client": "サンプル アーティストG",
+            "description": "EDM系楽曲のボーカルミックスを担当いたしました。エレクトロニックなサウンドと美しいボーカルの融合です。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "EDM",
+            "platform": "youtube",
+            "createdDate": "2025年03月"
+        },
+        {
+            "id": "sample-project-008",
+            "title": "桜舞い散る",
+            "client": "サンプル アーティストH",
+            "description": "和風テイストの楽曲のボーカルミックスを担当いたしました。伝統的な美しさを現代的にアレンジしました。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "和風ポップス",
+            "platform": "youtube",
+            "createdDate": "2025年02月"
+        },
+        {
+            "id": "sample-project-009",
+            "title": "光の中で",
+            "client": "サンプル アーティストI",
+            "description": "ゴスペル風楽曲のボーカルミックスを担当いたしました。力強く心に響く歌声が特徴です。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "ゴスペル",
+            "platform": "youtube",
+            "createdDate": "2025年01月"
+        },
+        {
+            "id": "sample-project-010",
+            "title": "新しい朝",
+            "client": "サンプル アーティストJ",
+            "description": "インディーポップ楽曲のボーカルミックスを担当いたしました。オシャレで洗練されたサウンドです。",
+            "videoId": "dQw4w9WgXcQ",
+            "genre": "インディーポップ",
+            "platform": "youtube",
+            "createdDate": "2024年12月"
+        }
+    ]
+}
