@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import * as Constant from "../constants/constants";
 
 export default function Home() {
   const onClickBtnViewMyServices = () => {
@@ -33,9 +32,8 @@ export default function Home() {
             Webサイト制作とボーカルミキシングサービスで、デジタル世界で際立つお手伝いをします。
           </p>
           <button
-            className="mt-6 sm:mt-8 md:mt-10 bg-blue-500 text-sm sm:text-base md:text-lg font-bold h-10 sm:h-12 md:h-14 px-6 sm:px-8 md:px-10 rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="mt-6 sm:mt-8 md:mt-10 bg-blue-500 text-[#D9EAF6] text-sm sm:text-base md:text-lg font-bold h-10 sm:h-12 md:h-14 px-6 sm:px-8 md:px-10 rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105"
             onClick={onClickBtnViewMyServices}
-            style={{ color: Constant.SubColor }}
           >
             <span className="truncate">サービスを見る</span>
           </button>
@@ -68,9 +66,8 @@ export default function Home() {
                   専門のミキシングサービスで、プロ品質のボーカルを実現します。あなたのレコーディングを強化し、リスナーを魅了する洗練されたラジオ対応のトラックを提供します。
                 </p>
                 <Link
-                  className="inline-block bg-blue-500 font-medium px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg text-xs sm:text-sm md:text-base hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+                  className="inline-block bg-blue-500 text-[#D9EAF6] font-medium px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg text-xs sm:text-sm md:text-base hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
                   href="/services/vocal-mix"
-                  style={{ color: Constant.SubColor }}
                   prefetch={false}
                 >
                   詳しく見る
@@ -94,13 +91,13 @@ export default function Home() {
                 <p className="mb-4 sm:mb-5 md:mb-6 text-sm sm:text-base md:text-lg lg:text-base xl:text-lg text-gray-600 leading-relaxed">
                   カスタムウェブサイト制作サービスで、魅力的なオンラインプレゼンスを構築します。ブランドのアイデンティティを反映し、オーディエンスを惹きつける、レスポンシブで使いやすいウェブサイトを制作します。
                 </p>
-                <a
-                  className="inline-block bg-blue-500 font-medium px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg text-xs sm:text-sm md:text-base hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
+                <Link
+                  className="inline-block bg-blue-500 text-[#D9EAF6] font-medium px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg text-xs sm:text-sm md:text-base hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105"
                   href="/services/web-create"
-                  style={{ color: Constant.SubColor }}
+                  prefetch={false}
                 >
                   詳しく見る
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,19 +1,7 @@
 /**
- * アセットパスのユーティリティ関数
- * GitHub Pages等のベースパスに対応した画像パスを生成
+ * アセットパスのユーティリティ
  */
-
-// 本番環境でのベースパス（GitHub Pagesのリポジトリ名）
-const BASE_PATH = process.env.NODE_ENV === 'production' ? '/Portfolio-Site' : '';
-
-/**
- * アセット（画像等）のパスを生成
- * @param path - /images/logo.svg のような相対パス
- * @returns ベースパスを含む完全なパス
- */
-export const getAssetPath = (path: string): string => {
-    return `${BASE_PATH}${path}`;
-};
+export const getAssetPath = (path: string): string => path;
 
 /**
  * よく使用される画像パスの定数

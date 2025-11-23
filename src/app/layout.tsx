@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import * as Constants from "@/constants/constants";
+import { SITE_NAME, SITE_DESCRIPTION } from "@/constants/constants";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -16,51 +15,29 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const shipporiMincho = localFont({
-  src: [
-    {
-      path: "../../public/fonts/Shippori_Mincho/ShipporiMincho-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Shippori_Mincho/ShipporiMincho-Medium.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Shippori_Mincho/ShipporiMincho-SemiBold.ttf",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Shippori_Mincho/ShipporiMincho-Bold.ttf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Shippori_Mincho/ShipporiMincho-ExtraBold.ttf",
-      weight: "800",
-      style: "normal",
-    },
-  ],
-  variable: "--font-shippori-mincho",
-});
-
-const shipporiAntiqua = localFont({
-  src: [
-    {
-      path: "../../public/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-  ],
-  variable: "--font-shippori-antiqua",
-});
-
 export const metadata: Metadata = {
-  title: Constants.GroupName,
-  description: "Personal portfolio website showcasing projects and skills",
+  title: {
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  keywords: ["ポートフォリオ", "フルスタック", "Web開発", "React", "Next.js", "TypeScript"],
+  authors: [{ name: SITE_NAME }],
+  openGraph: {
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    type: "website",
+    locale: "ja_JP",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -71,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${shipporiAntiqua.variable} ${shipporiMincho.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
         <main>{children}</main>
